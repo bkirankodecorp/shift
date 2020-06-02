@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Skybitz_Maintanance_MainScripts.Shift">
+        <methods>
+          <include name="Main_Functionalities"/>
+          <include name="Quit_Browser"/>
+          <include name="Open_Browser"/>
+        </methods>
+      </class> <!-- Skybitz_Maintanance_MainScripts.Shift -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
